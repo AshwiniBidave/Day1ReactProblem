@@ -2,14 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 //import Uc1 from './Uc1';
-import Uc2 from './Uc2';
+//import Uc2 from './Uc2';
+import Uc3 from './Uc3';
 import reportWebVitals from './reportWebVitals';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <>
-    <Uc2/>
+    <Uc3/>
   </>
 );
 
