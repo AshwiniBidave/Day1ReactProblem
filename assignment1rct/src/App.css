@@ -51,5 +51,10 @@ div{
   width: 500px;
   margin: auto;
   
-
+}
+.Error-Output{
+  margin-left: 10px;
+  font-size: 12px;
+  font-style: italic;
+  color: red;
 }

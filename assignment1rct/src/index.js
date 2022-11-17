@@ -5,14 +5,15 @@ import './index.css';
 //import Uc2 from './Uc2';
 //import Uc3 from './Uc3';
 //import Uc4 from './Uc4';
-import Uc5 from './Uc5';
+//import Uc5 from './Uc5';
+import Uc6 from './Uc6';
 import reportWebVitals from './reportWebVitals';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <>
-  <Uc5/>
+  <Uc6/>
   </>
 );
 
