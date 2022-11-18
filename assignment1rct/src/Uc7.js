@@ -33,11 +33,11 @@ class Uc7 extends React.Component {
                         <h1>Hello {this.state.username} from Bridgelabz</h1>
                         <img src={logo} onClick={this.onClick} alt="A Bridgelabz logo: a Bridge to Employee through lab work" />
                     </div>
-                    <div id="two">
+                    <div>
                         <input onChange={this.onNameChange} />
                         <span className="Error-Output">{this.state.nameError}</span>
                     </div>
-                    <div>
+                    <div id="two">
                         <p>At Bridgelabz,we are  a community of,
                         <br/>.technologists
                         <br/>.thikers

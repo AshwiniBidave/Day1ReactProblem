@@ -50,24 +50,18 @@ img {
   width: 25%;
 }
 
-#two {
-  text-align: center;
-  font-size: xx-large;
-  width: 700px;
-  margin: auto;
-
-}
 
 #one {
   border: solid;
   background: gold;
   }
 
-
-
 .Error-Output {
   margin-left: 10px;
   font-size: 12px;
   font-style: italic;
   color: red;
+}
+#two{
+  text-align:start;
 }

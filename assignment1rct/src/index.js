@@ -7,7 +7,9 @@ import './index.css';
 //import Uc4 from './Uc4';
 //import Uc5 from './Uc5';
 //import Uc6 from './Uc6';
-import Uc7 from './Uc7';
+//import Uc7 from './Uc7';
+import App from './App';
+
 
 import reportWebVitals from './reportWebVitals';
 
@@ -15,7 +17,7 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <>
-    <Uc7 />
+    <App />
   </>
 );
 
