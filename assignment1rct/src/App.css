@@ -65,3 +65,63 @@ img {
 #two{
   text-align:start;
 }
+#header{
+  background-color: lightblue;
+  width:100%;
+  height:50px;
+  text-align: center;
+}
+
+#sidebar-left{
+  float:left;
+  width:15%;
+  background-color: red;
+}
+
+#main{
+  float:left;
+  width:70%;
+  background-color: lightgray;
+}
+
+#sidebar-right{
+  float:left;
+  width:15%;
+  background-color: red;
+}
+
+#footer{
+  clear:both;
+  height: 50px;
+  width: 100%;
+  text-align: center;
+  background-color: lightblue;
+}
+
+#sidebar-left, #main, #sidebar-right{
+  min-height: 400px				
+}
+
+#First{
+  width:100%;
+  border: 5px solid palegreen;
+  box-sizing: border-box;
+
+}
+#two{
+  width: 100%;
+  border: 5px solid palegreen;
+  box-sizing: border-box;
+
+}#three{
+  width:100%;
+  border: 5px solid palegreen;
+  box-sizing: border-box;
+
+
+}#four{
+  width:100%;
+  border: 5px solid palegreen;
+  box-sizing: border-box;
+
+}

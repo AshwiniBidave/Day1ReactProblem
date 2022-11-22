@@ -1,4 +1,4 @@
-
+import React from 'react';
 import './App.css';
 import { BrowserRouter, Route, Routes} from 'react-router-dom';
 import Uc1 from './Uc1';
@@ -8,6 +8,7 @@ import Uc4 from './Uc4';
 import Uc5 from './Uc5';
 import Uc6 from './Uc6';
 import Uc7 from './Uc7';
+import Uc8 from './Uc8';
 function App() {
   return (
     <div className="App">
@@ -32,12 +33,15 @@ function App() {
           
           <Route path="/Uc7"
             element={<Uc7 />}/>
+                   
+             <Route path="/Uc8"
+            element={<Uc8 />}/>
           
         </Routes>
       </BrowserRouter>
 
     </div>
   );
-}
+  }
 
 export default App;
