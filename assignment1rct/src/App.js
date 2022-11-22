@@ -1,6 +1,6 @@
 
 import './App.css';
-import { BrowserRouter, Route, Routes} from 'react-router-dom';
+import { BrowserRouter, Route, Switch} from 'react-router-dom';
 import Uc1 from './Uc1';
 import Uc2 from './Uc2';
 import Uc3 from './Uc3';
@@ -12,9 +12,9 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
-      <Routes>
+      <Switch>
           <Route path="/Uc1"
-           element={ <Uc1 />}/>
+        element={ <Uc1 />}/>
           <Route path="/Uc2"
           element={<Uc2 />}/>
           
@@ -33,7 +33,7 @@ function App() {
           <Route path="/Uc7"
             element={<Uc7 />}/>
           
-        </Routes>
+        </Switch>
       </BrowserRouter>
 
     </div>

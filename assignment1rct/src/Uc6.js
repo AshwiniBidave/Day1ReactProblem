@@ -15,25 +15,25 @@ class Uc6 extends React.Component {
         console.log("Save button is clicked!", $event);
         window.open(this.url, "_blank")
     }
-    onNameChange = ($event) => {
-        console.log("value is", $event.target.value);
+    onNameChange = (event) => {
+        console.log("value is", event.target.value);
         const Regex = RegExp("^[A-Z]{1}[a-zA-z\\s]{2,}$");
-        this.setState({ username: $event.target.value })
-        if (Regex.test($event.target.value)) {
-            this.setState({ nameError: " " })
+        this.setState({ username: event.target.value })
+        if (Regex.test(event.target.value)) {
+            this.setState({ nameError: 'Min 3 Char required'})
         } else {
-            this.setState({ nameError: " name is incorrect" })
+            this.setState({nameError: '' })
         }
     }
     render() {
         return (
             <>
-                <div>
+                
                     <div>
                         <h1>Hello {this.state.username} from Bridgelabz</h1>
                         <img src={logo} onClick={this.onClick} alt="A Bridgelabz logo: a Bridge to Employee through lab work" />
-                    </div>
-                    <div>
+                    
+                    <div  className="input">
                         <input onChange={this.onNameChange} />
                         <span className="Error-Output">{this.state.nameError}</span>
                     </div>

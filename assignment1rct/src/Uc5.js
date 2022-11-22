@@ -14,9 +14,9 @@ class Uc5 extends React.Component {
         console.log("Save button is clicked!", $event);
         window.open(this.url, "_blank")
     }
-    onNameChange = ($event) => {
-        console.log("value is", $event.target.value);
-        this.setState({ username: $event.target.value })
+    onNameChange = (event) => {
+        console.log("value is", event.target.value);
+        this.setState({ username: event.target.value })
     }
     render() {
         return (

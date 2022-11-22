@@ -52,8 +52,14 @@ img {
 
 
 #one {
-  border: solid;
+  
   background: gold;
+  width: 600px;;
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
+  margin: 0 auto;
+  
+  
   }
 
 .Error-Output {
@@ -62,6 +68,81 @@ img {
   font-style: italic;
   color: red;
 }
-#two{
-  text-align:start;
+p,li{
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+  
 }
+.input{
+  text-align: center;
+}
+#header{
+  background-color: lightblue;
+  width:100%;
+  height:50px;
+  text-align: center;
+}
+
+#sidebar-left{
+  float:left;
+  width:15%;
+  background-color: red;
+}
+
+#main{
+  float:left;
+  width:70%;
+  background-color: lightgray;
+  display:block;
+}
+
+#sidebar-right{
+  float:left;
+  width:15%;
+  background-color: red;
+  
+}
+
+#footer{
+  clear:both;
+  height: 50px;
+  width: 100%;
+  text-align: center;
+  background-color: lightblue;
+}
+
+#sidebar-left, #main, #sidebar-right{
+  min-height: 400px				
+}
+ #First{
+  
+  box-sizing:border-box;
+  width: 100%;
+  border: 5px solid palegreen;
+
+  
+}
+#two{
+  box-sizing: border-box;
+  width: 100%;
+  border: 5px solid palegreen;
+
+
+
+}
+
+#three{
+  box-sizing: border-box;
+  width: 100%;
+  border:5px solid palegreen;
+  
+}
+#four{
+  box-sizing: border-box;
+  width: 100%;
+  border:5px solid palegreen;
+  
+}
+
+
