@@ -62,66 +62,57 @@ img {
   font-style: italic;
   color: red;
 }
-#two{
+.input{
   text-align:start;
 }
-#header{
-  background-color: lightblue;
-  width:100%;
-  height:50px;
+.header{
+  display: flex;
+  flex-flow: column wrap;
+  align-content: center;
+  background-color:tomato;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.sidebar-left{
+  flex: 1 0 0;
+  border: 0px solid green;
+  background-color:gold;
+  order: 1;
+}
+
+.main{
+  text-align: left;
+  background-color: deepskyblue;
+  flex: 3 0px;
+  order: 2;
+}
+
+.sidebar-right{
+  flex: 1 0 0;
+  border: 0px solid green;
+  order: 3;
+  background-color:hotpink;
+  
+}
+
+.footer{
+  display: flex;
+  flex-flow: column wrap;
+  align-content: center;
+  background-color:lightgreen;
+  font-weight: bold;
+  padding: 10px;
+}
+.maincontainer{
+  display: flex;
+  flex-flow: row wrap;
+  font-weight: bold;
   text-align: center;
 }
 
-#sidebar-left{
-  float:left;
-  width:15%;
-  background-color: red;
-}
-
-#main{
-  float:left;
-  width:70%;
-  background-color: lightgray;
-}
-
-#sidebar-right{
-  float:left;
-  width:15%;
-  background-color: red;
-}
-
-#footer{
-  clear:both;
-  height: 50px;
-  width: 100%;
-  text-align: center;
-  background-color: lightblue;
-}
-
-#sidebar-left, #main, #sidebar-right{
-  min-height: 400px				
-}
-
-#First{
-  width:100%;
-  border: 5px solid palegreen;
-  box-sizing: border-box;
-
-}
-#two{
-  width: 100%;
-  border: 5px solid palegreen;
-  box-sizing: border-box;
-
-}#three{
-  width:100%;
-  border: 5px solid palegreen;
-  box-sizing: border-box;
-
-
-}#four{
-  width:100%;
-  border: 5px solid palegreen;
-  box-sizing: border-box;
-
+article{
+  padding: 10px;
+  margin: 10px;
+  background-color: aqua;
 }
